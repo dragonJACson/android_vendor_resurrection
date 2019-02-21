@@ -274,3 +274,4 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/rr/config/partner_gms.mk
+-include vendor/mk-priv/config/mokee_private.mk
