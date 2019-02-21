@@ -98,6 +98,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/rr/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/rr/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
 # Enable wireless Xbox 360 controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
@@ -146,7 +151,8 @@ PRODUCT_COPY_FILES += vendor/rr/prebuilt/common/bootanimation/bootanimation.zip:
 PRODUCT_PACKAGES += \
     LineageParts \
     Development \
-    Profiles
+    Profiles \
+    Lawnchair
 
 # OmniPackages
 PRODUCT_PACKAGES += \
@@ -168,7 +174,6 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     LockClock \
-    TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
     WeatherProvider
