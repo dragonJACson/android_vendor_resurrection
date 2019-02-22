@@ -147,10 +147,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
  OmniJaws
 
-#Font package
-PRODUCT_PACKAGES += \
-    Custom-Fonts
-
 # Optional packages
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
