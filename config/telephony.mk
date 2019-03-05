@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
 
 # Captcha Provider list
 PRODUCT_COPY_FILES += \
-    vendor/mk/prebuilt/common/etc/captcha-provider-conf.xml:system/etc/captcha-provider-conf.xml
+    vendor/rr/prebuilt/common/etc/captcha-provider-conf.xml:system/etc/captcha-provider-conf.xml
 
 # Selective SPN list for operator number who has the problem.
 PRODUCT_COPY_FILES += \
