@@ -172,10 +172,10 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
-    Jelly \
     LockClock \
     Updater \
     WallpaperPicker \
+		Bromite \
     WeatherProvider
 
 # Exchange support
