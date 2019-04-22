@@ -178,6 +178,27 @@ PRODUCT_PACKAGES += \
 		Bromite \
     WeatherProvider
 
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileSquircleTrim \
+    QStileAttemptMountain \
+    QStileCircleDualTone \
+    QStileCircleGradient \
+    QStileDottedCircle \
+    QStileNinja \
+    QStilePokesign \
+    QStileWavey \
+    QStileSquaremedo\
+    QStileOreo \
+    QStileOreoCircleTrim \
+    QStileOreoSquircleTrim \
+    QStileInkDrop \
+    QStileCookie \
+    QStileCircleOutline
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
