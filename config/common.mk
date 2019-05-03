@@ -183,21 +183,16 @@ PRODUCT_PACKAGES += \
     QStileCircleTrim \
     QStileDefault \
     QStileDualToneCircle \
-    QStileSquircleTrim \
-    QStileAttemptMountain \
-    QStileCircleDualTone \
-    QStileCircleGradient \
-    QStileDottedCircle \
-    QStileNinja \
-    QStilePokesign \
-    QStileWavey \
-    QStileSquaremedo\
-    QStileOreo \
-    QStileOreoCircleTrim \
-    QStileOreoSquircleTrim \
-    QStileInkDrop \
-    QStileCookie \
-    QStileCircleOutline
+    QStileHexagon \
+    QStileStar \
+    QStileTearDrop \
+    QStileSquare \
+    QStileGear \
+    QStileBadge \
+    QStileBadgetwo \
+    QStileSquircle \
+    QStileDiamond \
+    QStileSquircleTrim
 
 # Exchange support
 PRODUCT_PACKAGES += \
