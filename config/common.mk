@@ -110,7 +110,8 @@ PRODUCT_COPY_FILES += \
 # This is Lineage!
 PRODUCT_COPY_FILES += \
     vendor/rr/config/permissions/org.lineageos.android.xml:system/etc/permissions/org.lineageos.android.xml \
-    vendor/rr/config/permissions/privapp-permissions-lineage.xml:system/etc/permissions/privapp-permissions-lineage.xml
+    vendor/rr/config/permissions/privapp-permissions-lineage.xml:system/etc/permissions/privapp-permissions-lineage.xml \
+    vendor/rr/config/permissions/privapp-permissions-cm-legacy.xml:system/etc/permissions/privapp-permissions-cm-legacy.xml
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
@@ -168,6 +169,7 @@ PRODUCT_PACKAGES += \
 # Custom RR packages
 PRODUCT_PACKAGES += \
     AudioFX \
+    Backgrounds \
     LineageSettingsProvider \
     LineageSetupWizard \
     Eleven \
@@ -175,7 +177,7 @@ PRODUCT_PACKAGES += \
     LockClock \
     Updater \
     WallpaperPicker \
-		Bromite \
+    Bromite \
     WeatherProvider
 
 # QS tile styles
