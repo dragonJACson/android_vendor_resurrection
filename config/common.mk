@@ -145,7 +145,7 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Bootanimation
-PRODUCT_COPY_FILES += vendor/rr/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+# PRODUCT_COPY_FILES += vendor/rr/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # Required RR packages
 PRODUCT_PACKAGES += \
@@ -156,8 +156,8 @@ PRODUCT_PACKAGES += \
 
 # OmniPackages
 PRODUCT_PACKAGES += \
- OmniJaws \
- OmniStyle
+    OmniStyle \
+    OmniJaws
 
 # Optional packages
 PRODUCT_PACKAGES += \
@@ -298,3 +298,4 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/rr/config/partner_gms.mk
 -include vendor/mk-priv/config/mokee_private.mk
+-include vendor/pixelstyle/config.mk

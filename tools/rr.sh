@@ -20,7 +20,7 @@
     cyarev=${rev}$(tput setaf 6)
     ylwrev=${rev}$(tput setaf 3)
     blurev=${rev}$(tput setaf 4)
-    normal='tput sgr0'
+    normal=$(tput sgr0)
 
 echo -e "";
 echo -e "";
